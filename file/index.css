@@ -1,0 +1,104 @@
+
+
+body {
+
+  background-color: #040404;
+}
+
+.navbar{
+
+  background-color: #040404 !important;
+}
+
+.nav-bar{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nav-item{
+
+  margin-left: 40px;
+}
+
+.brandImg{
+
+  width: 26%;
+}
+
+ul.navbar-nav {
+
+  margin-top: 20px !important;
+}
+
+.nav-link {
+
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carousel-item {
+
+  position: relative;
+}
+
+.CarouselText {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+
+.CarouselTextOne {
+
+  position: absolute;
+  top: 30%;
+  right: 100px;
+}
+
+.CarouselTextTwo {
+
+  position: absolute;
+  top: 30%;
+  left: 30px;
+}
+
+.CarouselTextThree {
+
+  position: absolute;
+  top: 30%;
+  right: 100px;
+}
+
+.CarouselTextFour {
+
+  position: absolute;
+  top: 30%;
+  right: 100px;
+}
+
+.CarouselTextFive {
+
+  position: absolute;
+  top: 30%;
+  left: 30px;
+}
+/* 
+span {
+
+	background-image: linear-gradient(#ffd900, #ffd900);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-size: 100% 2px;
+	transition: background-size .5s, background-position .3s ease-in .5s;
+}
+
+span {
+
+  background-size: 100% 100%;
+	background-position: 0% 0%;
+	transition: background-position .5s, background-size .3s ease-in .5s;
+} */
