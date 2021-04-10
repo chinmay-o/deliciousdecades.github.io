@@ -1,5 +1,4 @@
 
-
 body {
 
   background-color: #040404;
@@ -271,7 +270,7 @@ ul.navbar-nav {
 
 .aboutContent {
 
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 20px;
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
@@ -321,4 +320,74 @@ footer h2 {
   background: #F51E4D;
   border-radius: 0;
   border: 0;
+}
+
+.mobile {
+
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+  .ProdGrid{
+
+    padding-bottom: 52%;
+  }
+
+  .AboutUs {
+
+    padding-bottom: 66%;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .navbar-brand {
+
+    display: contents;
+  }
+
+  .ProdGrid{
+
+    padding-bottom: 56%;
+  }
+
+  .AboutUs {
+
+    padding-bottom: 102%;
+  }
+
+  .nut-specialist {
+
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .web {
+
+    display: none;
+  }
+
+  .mobile {
+
+    display: block;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30%;
+    color: white;
+  }
+
+  .mobile img {
+
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 20%;
+  }
 }
