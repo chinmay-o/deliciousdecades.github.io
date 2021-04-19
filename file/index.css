@@ -577,6 +577,13 @@ footer h2 {
     height: 28vw;
   }
 
+  .ProdHead .row {
+
+    flex-wrap: wrap;
+    display: block;
+    margin: auto;
+  }
+
   #ProdDescOne {
 
     display: none;
