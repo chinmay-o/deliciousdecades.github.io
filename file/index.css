@@ -66,21 +66,19 @@ ul.navbar-nav {
   font-family: 'Raleway', sans-serif;
   font-size: 5vw;
   font-weight: bolder;
-  color: #fff;
+  /* color: #fff; */
+  background-image: linear-gradient(70deg, #bfbcbd 0, #bfbcbd 6.25%, #bfbcbd 12.5%, #bfbcbc 18.75%, #bfbcbc 25%, #bfbcbc 31.25%, #bfbcbb 37.5%, #bfbcbb 43.75%, #bfbcbb 50%, #bfbcbb 56.25%, #bfbcbb 62.5%, #bebcba 68.75%, #bebcba 75%, #bebcba 81.25%, #bebdba 87.5%, #bdbdba 93.75%, #bdbdba 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .CarouselTextOne, .CarouselTextTwo {
 
   position: absolute;
-  margin-top: 14%;
+  padding: 100px 0;
+  /* margin-top: 14%; */
   margin-left: auto;
 }
-
-/* Carousel Text Effect */
-
-
-
-/* End */
 
 .ProdHead {
 
@@ -100,6 +98,11 @@ ul.navbar-nav {
   height: 30vh;
 }
 
+#ProdDescOneMobile {
+
+  display: none;
+}
+
 #ProdDescOne {
 
   text-align: left;
@@ -109,7 +112,7 @@ ul.navbar-nav {
 
   font-family: 'Raleway', sans-serif;
   font-size: 52px;
-  font-weight: 600;
+  font-weight: 300;
   color: lavender;
   margin-left: 100px;
   margin-top: 14px;
@@ -283,6 +286,11 @@ ul.navbar-nav {
   margin-top: 6%;
 }
 
+.nut-Mobile img{
+
+  display: none;
+}
+
 footer {
 
   margin-top: 60px;
@@ -323,11 +331,6 @@ footer h2 {
   border: 0;
 }
 
-.mobile {
-
-  display: none;
-}
-
 @media only screen and (max-width: 1200px) {
 
 
@@ -350,6 +353,31 @@ footer h2 {
     display: contents;
   }
 
+  .NutIntro {
+
+    background-position: center;
+  }
+
+  .NutIntro .carousel-inner {
+
+    width: 100%;
+  }
+
+  .CarouselText {
+
+    color: white;
+    background-image: 0;
+    -webkit-background-clip: 0;
+    -webkit-text-fill-color: white;
+  }
+
+  .CarouselTextOne, .CarouselTextTwo {
+
+    position: relative;
+    text-align: center;
+    margin-top: 8%;
+  }
+
   .ProdGrid{
 
     padding-bottom: 56%;
@@ -369,7 +397,40 @@ footer h2 {
 
   #ProdDescTwo h1{
 
-    margin-top: 16px;
+    margin-top: 30px;
+    font-size: 78px;
+  }
+
+  .productText .main {
+
+    font-size: 46px;
+  }
+
+  .productText .standard {
+
+    font-size: 30px;
+  }
+
+  .productText .netwt {
+
+    margin-top: 84%;
+    font-size: 20px;
+  }
+
+  #StartNow h1 {
+
+    font-size: 30px;
+    margin-top: 50%;
+  }
+
+  #StartNow button {
+
+    font-size: 20px;
+  }
+
+  .aboutContent {
+
+    font-size: 22px;
   }
 
   .AboutUs {
@@ -379,33 +440,317 @@ footer h2 {
 
   .nut-specialist {
 
-    margin-top: 30%;
+    margin-top: 26%;
+  }
+
+  .nut-specialist img {
+
+    width: 124%;
+    margin-left: -38px;
   }
 }
 
 @media only screen and (max-width: 767px) {
 
-  .web {
+
+  .CarouselTextOne, .CarouselTextTwo {
+
+    margin-top: 20%;
+  }
+
+  .ProdHead {
+
+    margin-top: 60px;
+  }
+
+  .ProdDesc {
+
+    height: 14vw;
+  }
+
+  #ProdDescOne h1 {
+
+    font-size: 28px;
+  }
+
+  #ProdDescTwo h1 {
+
+    margin-top: 16px;
+    font-size: 60px;
+  }
+
+  .productText .main {
+
+    font-size: 36px;
+  }
+
+  .productText .standard {
+
+    font-size: 24px;
+  }
+
+  .productText .netwt {
+
+    margin-top: 84%;
+    font-size: 16px;
+  }
+
+  #StartNow h1 {
+
+    font-size: 22px;
+    margin-top: 50%;
+  }
+
+  #StartNow button {
+
+    font-size: 14px;
+  }
+
+  .AboutUs {
+
+    margin-top: 60px;
+    padding-bottom: 140%;
+    border-radius: 40px;
+    border: solid 2px black;
+  }
+
+  .aboutHeading {
+
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .aboutContent {
+
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 0;
+  }
+
+  .nut-specialist {
+
+    margin-top: 0;
+    padding: 2px !important;
+  }
+
+  .nut-specialist img {
+
+    width: 46%;
+    margin-left: 0;
+    display: block;
+    margin: auto;
+    transform: rotate(90deg);
+    margin-top: -102px;
+  }
+
+  footer {
+
+    text-align: center;
+  }
+
+  .contactBtn {
+
+    margin-top: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  .NutIntro {
+
+    margin-top: 6vw;
+  }
+
+  .CarouselTextOne, .CarouselTextTwo {
+
+    margin-top: 10vw;
+  }
+
+  .CarouselText {
+
+    font-size: 8vw;
+  }
+
+  .ProdDesc {
+
+    height: 28vw;
+  }
+
+  #ProdDescOne {
 
     display: none;
   }
 
-  .mobile {
+  #ProdDescOneMobile {
 
     display: block;
     margin: auto;
-    font-family: 'Nunito', sans-serif;
-    font-size: 40px;
     text-align: center;
-    margin-top: 30%;
-    color: white;
   }
 
-  .mobile img {
+  #ProdDescOneMobile h1 {
 
-    display: block;
-    margin: auto;
-    width: 40%;
-    margin-bottom: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8vw;
+    font-weight: 400;
+    color: lavender;
+    margin-top: 10vw;
+  }
+
+  #ProdDescTwo h1 {
+
+    font-size: 18vw;
+    margin-top: 0;
+  }
+
+  .ProdGrid {
+
+    padding-bottom: 100%;
+    border: solid 30px black;
+    border-radius: 60px;
+    margin-bottom: -30px;
+  }
+
+  .productText .main {
+
+    font-size: 60px;
+  }
+
+  .productText .standard {
+
+    font-size: 36px;
+  }
+
+  .productText .netwt {
+
+    margin-top: 80%;
+    font-size: 26px;
+  }
+
+  #StartNow h1 {
+
+    font-size: 36px;
+    margin-top: 46%;
+  }
+
+  #StartNow button {
+
+    font-size: 20px;
+  }
+
+  .AboutUs {
+
+    margin-top: 30px;
+    padding-bottom: 140vw;
+    border-radius: 34px;
+    border: solid 10px black;
+  }
+
+  .nut-specialist img {
+
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+  .CarouselTextOne, .CarouselTextTwo {
+
+    margin-top: 18vw;
+  }
+
+  .productText .main {
+
+    font-size: 52px;
+  }
+
+  .productText .standard {
+
+    font-size: 26px;
+  }
+
+  .productText .netwt {
+
+    margin-top: 80%;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  .aboutContent {
+
+    margin-top: 52px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .AboutUs {
+
+    padding-bottom: 160vw;
+  }
+
+  .AboutUs h1 {
+
+    font-size: 8vw;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .productText .main {
+
+    font-size: 44px;
+  }
+
+  .productText .standard {
+
+    font-size: 20px;
+  }
+
+  .productText .netwt {
+
+    margin-top: 90%;
+    font-size: 16px;
+  }
+
+  #StartNow h1 {
+
+    font-size: 22px;
+    margin-top: 54%;
+  }
+
+  #StartNow button {
+
+    font-size: 18px;
+  }
+
+  .AboutUs {
+
+    padding-bottom: 200vw;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+
+  .CarouselTextOne, .CarouselTextTwo {
+
+    margin-top: 24vw;
+  }
+
+  .AboutUs {
+
+    padding-bottom: 220vw;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+
+  .AboutUs {
+
+    padding-bottom: 240vw;
   }
 }

@@ -1,0 +1,184 @@
+
+
+.FactsIntro {
+
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.FactIntroImg {
+
+  background-image: url(images/nuts-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.FactsIntroText {
+
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+.FactsIntroText h1 {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 10vw;
+  font-weight: 600;
+}
+
+.FactsIntroText #One {
+
+  font-size: 4.2vw;
+  font-weight: 400;
+}
+
+.FactsIntroText #Two {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.2vw;
+  font-weight: bold;
+}
+
+.Facts .jumbotron {
+
+  height: 36vw;
+}
+
+/* .Facts h1, p, ol {
+
+  background-image: radial-gradient(circle at 85.36% 111.24%, #ff706f 0, #ff6377 10%, #ff567d 20%, #f3497f 30%, #d63c7c 40%, #b53075 50%, #94256b 60%, #771e62 70%, #5e195a 80%, #491653 90%, #36154d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.Facts h1 {
+
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Facts p, ol {
+
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Facts button {
+
+  margin-top: 100px;
+}
+
+.AlmondFacts{
+
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background: url(images/carouselTwo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.PistaFacts{
+
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background: url(images/carouselOne.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.RaisinFacts{
+
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background: url(images/carouselThree.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.CashewFacts{
+
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background: url(images/carouselFour.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.WalnutFacts{
+
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background: url(images/walnut.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.HazelnutFacts{
+
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background: url(images/Hazelnut.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Facts .btn {
+
+  background-color: #040404;
+  border: 0;
+  color: #fff;
+}
+
+.FactConcl {
+
+  padding-left: 28px;
+  padding-right: 28px;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+.FactConcl h1 {
+
+  font-weight: 400;
+  font-size: 3vw;
+}
+
+#textQuoteOne{
+
+  margin-top: 16%;
+}
+
+#textQuoteTwo {
+
+  margin-top: 46%;
+}
+
+#FactOne {
+
+  background-color: #B5309E;
+}
+
+#FactTwo {
+
+  background-color: #723099;
+}
+
+.BetterHealth {
+
+  margin-left: 10%;
+  margin-top: 38%;
+}
+
+.SetYourDay {
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+  padding-top: 1vw;
+  height: 6vw;
+  text-align: center;
+  background-color: #F51E4D;
+}
