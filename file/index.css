@@ -663,6 +663,11 @@ footer h2 {
 
 @media only screen and (max-width: 430px) {
 
+  .brandImg {
+
+    width: 30%;
+  }
+
   .CarouselTextOne, .CarouselTextTwo {
 
     margin-top: 18vw;
