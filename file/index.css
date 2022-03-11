@@ -54,9 +54,9 @@ body {
   margin-left: 40px;
 }
 
-.brandImg{
+.brandImg {
 
-  width: 26%;
+  width: 12%;
 }
 
 ul.navbar-nav {
@@ -128,6 +128,11 @@ ul.navbar-nav {
 .ProdDesc {
 
   height: 30vh;
+}
+
+.ProdGrid a:hover {
+
+  text-decoration: none;
 }
 
 #ProdDescOneMobile {
@@ -206,7 +211,7 @@ ul.navbar-nav {
 
 #Pistachios {
 
-  background-image: url(images/Pistachios.jpg);
+  background-image: url(images/Almonds200g.jpg);
   background-size: cover;
   color: white;
 }
@@ -647,7 +652,7 @@ footer h2 {
 
     padding-bottom: 100%;
     border: solid 30px black;
-    border-radius: 60px;
+    border-radius: 50px;
     margin-bottom: -30px;
   }
 
