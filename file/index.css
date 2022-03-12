@@ -280,9 +280,18 @@ ul.navbar-nav {
 .netwt {
 
   font-weight: 300;
-  text-align: end;
+  text-align: start;
   font-size: 30px;
   margin-top: 72%;
+}
+
+.buyNow {
+
+  float: right;
+  background-color: black;
+  border-color: black;
+  font-size: 18px;
+  margin-top: -44px;
 }
 
 #StartNow {
